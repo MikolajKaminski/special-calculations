@@ -33,4 +33,10 @@ final class Test extends TestCase
 			PrimeNumbers::calcPrimeNumbers()
 		);
 	}
+
+	public function testTest(): void
+	{
+		$this->assertTrue(true);
+		$this->assertFalse(false);
+	}
 }
